@@ -5,7 +5,7 @@ plugins {
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
-    useLibrary  'org.apache.http.legacy'
+    useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
         applicationId "com.android.myapp"
@@ -54,4 +54,10 @@ dependencies {
     implementation group: 'com.squareup.retrofit2', name: 'converter-jackson', version: '2.9.0'
     // https://mvnrepository.com/artifact/com.squareup.retrofit2/converter-gson
     implementation group: 'com.squareup.retrofit2', name: 'converter-gson', version: '2.9.0'
+    // https://mvnrepository.com/artifact/com.google.firebase/firebase-messaging
+    implementation group: 'com.google.firebase', name: 'firebase-messaging', version: '21.0.1'
 }
+
+apply plugin: 'com.android.application'
+// Add the following line:
+apply plugin: 'com.google.gms.google-services'  // Google Services plugin
