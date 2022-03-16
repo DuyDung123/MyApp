@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1088251476271",
+    "project_id": "gmail-api-oauth2-336810",
+    "storage_bucket": "gmail-api-oauth2-336810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088251476271:android:6c49202629b6466c9589da",
+        "android_client_info": {
+          "package_name": "com.android.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088251476271-elb8lj21q89p1k6up6d0p7voke125k0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz7pWh5gIVXRR--6S4fh3uc8x9uMXahOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088251476271-elb8lj21q89p1k6up6d0p7voke125k0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
