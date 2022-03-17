@@ -1,4 +1,3 @@
 <resources>
-    <string name="app_name">MyApp</string>
-    <string name="project_id">gmail-api-oauth2-336810</string>
+    <string name="app_name" translatable="false">MyApp</string>
 </resources>
